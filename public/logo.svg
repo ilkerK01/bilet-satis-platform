@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <style>
+    .white { fill: #ffffff; }
+  </style>
+  
+  <!-- Hilal (Crescent Moon) - Fotoğraftaki gibi -->
+  <path class="white" d="M50 150 C50 67.16, 117.16 0, 200 0 C170 0, 150 20, 150 50 C150 250, 170 270, 200 270 C117.16 270, 50 232.84, 50 150 Z"/>
+  
+  <!-- At Figürü (Fotoğraftaki siluet) -->
+  <g transform="translate(120, 80) scale(0.8)">
+    <!-- At Başı ve Boynu -->
+    <path class="white" d="M80 40 C85 30, 95 25, 105 30 C110 25, 115 30, 120 35 C125 30, 130 35, 125 45 C130 50, 125 60, 120 65 C115 70, 110 65, 105 60 C100 65, 95 60, 90 55 C85 60, 80 55, 85 50 C80 45, 85 40, 80 40 Z"/>
+    
+    <!-- At Yelesi -->
+    <path class="white" d="M75 35 C70 25, 65 20, 70 15 C75 10, 85 15, 90 25 C95 15, 105 10, 115 15 C125 10, 135 15, 130 25 C135 30, 130 40, 125 45 C120 50, 115 45, 110 40 C105 45, 100 40, 95 35 C90 40, 85 35, 80 30 C75 35, 70 30, 75 35 Z"/>
+    
+    <!-- At Vücudu -->
+    <ellipse class="white" cx="90" cy="90" rx="40" ry="25"/>
+    
+    <!-- At Bacakları -->
+    <rect class="white" x="60" y="110" width="8" height="30"/>
+    <rect class="white" x="75" y="110" width="8" height="30"/>
+    <rect class="white" x="105" y="110" width="8" height="30"/>
+    <rect class="white" x="120" y="110" width="8" height="30"/>
+    
+    <!-- At Kuyruğu -->
+    <path class="white" d="M130 85 C140 90, 150 95, 155 105 C160 115, 155 120, 145 115 C135 110, 130 100, 125 90 C125 85, 130 85, 130 85 Z"/>
+    
+    <!-- At Kulakları -->
+    <path class="white" d="M85 30 C80 25, 85 20, 90 25 C95 20, 100 25, 95 30"/>
+    <path class="white" d="M105 30 C100 25, 105 20, 110 25 C115 20, 120 25, 115 30"/>
+  </g>
+</svg>

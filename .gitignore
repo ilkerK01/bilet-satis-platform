@@ -1,0 +1,38 @@
+# Veritabanı dosyaları
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Log dosyaları
+*.log
+logs/
+
+# Geçici dosyalar
+tmp/
+temp/
+
+# IDE dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules (eğer kullanılırsa)
+node_modules/
+package-lock.json
+
+# Environment dosyaları
+.env
+.env.local
+
+# Cache dosyaları
+cache/
+*.cache

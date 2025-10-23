@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    build: . 
+    container_name: bilet-platformu 
+    ports:
+      - "8080:80" 
+    volumes:
+      - ./database:/var/www/html/database

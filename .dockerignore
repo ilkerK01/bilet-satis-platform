@@ -1,0 +1,7 @@
+.git
+.idea
+.vscode
+Dockerfile
+docker-compose.yml
+*.md
+*.rar

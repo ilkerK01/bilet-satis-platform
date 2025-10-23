@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# Ana sayfa yönlendirmesi
+RewriteRule ^$ index.php [L]
+
+# Sayfa yönlendirmeleri
+RewriteRule ^pages/(.*)$ ../pages/$1 [L]
+RewriteRule ^pdf/(.*)$ ../pdf/$1 [L]
+
+# CSS, JS ve resim dosyaları
+RewriteRule ^css/(.*)$ css/$1 [L]
+RewriteRule ^js/(.*)$ js/$1 [L]
+RewriteRule ^images/(.*)$ images/$1 [L]
+
+# Güvenlik - hassas dosyalara erişimi engelle
+RewriteRule ^includes/(.*)$ - [F,L]
+RewriteRule ^database/(.*)$ - [F,L]
+RewriteRule ^\.(.*)$ - [F,L]
